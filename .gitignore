@@ -1,0 +1,24 @@
+# Environnement virtuel
+.venv/
+venv/
+
+# Secrets (clés API)
+.env
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.egg-info/
+.pytest_cache/
+
+# Données et index (trop lourds pour Git)
+data/pdfs/*.pdf
+data/faiss_index/
+
+# VS Code
+.vscode/
+
+# OS
+.DS_Store
+Thumbs.db
